@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>ARIA Live Toggle</title>
+<script type="text/javascript" src="../../../jquery/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="aria-live-toggle-always-assertive.js"></script>
+</head>
+
+<body>
+<p>This will announce to screen reader users how much time is left every 10 seconds.</p>
+<p id="timeLeft" role="timer" aria-live="assertive" aria-atomic="true">Time left: <span id="clock">1:00</span></p>
+</body>
+</html>
